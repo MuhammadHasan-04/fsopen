@@ -44,6 +44,7 @@ const App = () => {
   };
 
   const Button = ({ onClick, text }) => {
+    console.log("returning button");
     return <button onClick={onClick}>{text}</button>;
   };
 
