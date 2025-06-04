@@ -1,0 +1,27 @@
+GET http://localhost:8081/api/persons/683c3fc9c5a84c0bf43d53de
+
+
+###
+
+POST http://localhost:8081/api/persons
+Content-Type: application/json
+
+{
+    "name" : "unknwon",
+    "number" : "000-1112222"
+    
+}
+
+###
+DELETE http://localhost:8081/api/persons/3
+
+###
+### Update a person by ID
+PUT http://localhost:8081/api/persons/683c3fc9c5a84c0bf43d53de
+Content-Type: application/json
+
+{
+  "name": "Updated Name",
+  "number": "9876543210"
+}
+
